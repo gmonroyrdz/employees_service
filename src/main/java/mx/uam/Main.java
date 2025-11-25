@@ -5,10 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import mx.uam.dal.entity.Departamento;
-import mx.uam.dal.entity.Empleado;
-import mx.uam.dal.repository.DepartamentoRepository;
-import mx.uam.dal.repository.EmpleadoRepository;
+import mx.uam.model.entity.Departamento;
+import mx.uam.model.entity.Empleado;
+import mx.uam.repository.DepartamentoRepository;
+import mx.uam.repository.EmpleadoRepository;
 
 @SpringBootApplication
 public class Main {

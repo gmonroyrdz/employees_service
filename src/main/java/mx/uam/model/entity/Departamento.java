@@ -1,4 +1,4 @@
-package mx.uam.dal.entity;
+package mx.uam.model.entity;
 
 import java.util.ArrayList;
 import java.util.List;

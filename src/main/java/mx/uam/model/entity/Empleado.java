@@ -1,4 +1,4 @@
-package mx.uam.dal.entity;
+package mx.uam.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
