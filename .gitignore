@@ -1,3 +1,16 @@
-target/*
-!target/classes/
-!target/test-classes/
+# Ignore build output
+/target/
+
+# Ignore compiled classes
+*.class
+
+# Common IDE/project files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs and temp
+*.log
+*.tmp
