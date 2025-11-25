@@ -16,6 +16,7 @@ public class Main {
         SpringApplication.run(Main.class, args);
     }
 
+    /*
     @Bean
     CommandLineRunner init(DepartamentoRepository departamentoRepository, EmpleadoRepository empleadoRepository) {
         return args -> {
@@ -35,4 +36,5 @@ public class Main {
             System.out.println("Sample data inserted: departamento id=" + d.getId() + ", empleado id=" + e.getId());
         };
     }
+         */
 }
