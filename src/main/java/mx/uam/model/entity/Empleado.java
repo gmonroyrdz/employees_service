@@ -17,6 +17,7 @@ public class Empleado {
 	private String apellidoPaterno;
 	private String apellidoMaterno;
 	private Integer edad;
+	private String puesto;
 
 	@ManyToOne
 	@JoinColumn(name = "departamento_id")
@@ -52,6 +53,14 @@ public class Empleado {
 
 	public void setApellidoMaterno(String apellidoMaterno) {
 		this.apellidoMaterno = apellidoMaterno;
+	}
+
+	public String getPuesto() {
+		return puesto;
+	}
+
+	public void setPuesto(String puesto) {
+		this.puesto = puesto;
 	}
 
 	public Integer getEdad() {
